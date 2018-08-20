@@ -4,6 +4,8 @@
 }
 h1 {
   margin-bottom: 15px;
+  font-size: 1.75em;
+  text-align: center;
 }
 
 div {
@@ -13,17 +15,18 @@ div {
 .section-div {
   background-color: #999999;
   border: 2px solid black;
-  margin-top : 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+/*  margin-top : 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;*/
+  margin: 15px;
 }
 
 .section-p {
   clear : right;  
   margin: 0;
   padding: 10px;
-  font-family: Helvetica;
+  font-family: Courier Helvetica;
 }
 
 .title-box {  
@@ -33,6 +36,7 @@ div {
   top: 0px;
   right: 0px;
   margin:0;
+  font-size: 1.25em;
 }
 
 #title-box1{
