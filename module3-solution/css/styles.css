@@ -1,13 +1,27 @@
-#nav-list li {
-	background: #E7E7E7;
-	border: 2px;
-	width: 100%;	
+#collapsable-nav{
+	padding :0px;
+}
+
+#nav-list {
+	margin-top: 1px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}	
+
+#nav-list li{
+	background: #FFD3B5;
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;	
+	margin-top: -1px;    
 }
 
 .navbar{
-	margin-bottom: 0px;
+	
 }
 
 .menu-section {
-    background: #FF0000;    
+    background: #A8E6CE;    
 }
