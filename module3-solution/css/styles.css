@@ -1,3 +1,7 @@
+#brand-main {
+	color: #000000;
+}
+
 #collapsable-nav{
 	padding :0px;
 }
@@ -23,5 +27,5 @@
 }
 
 .menu-section {
-    background: #A8E6CE;    
+    background: #A8E6CE;  
 }
