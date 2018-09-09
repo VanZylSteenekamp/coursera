@@ -1,9 +1,18 @@
+*{
+	font-family: 'Jua', sans-serif; 
+}
+
 #brand-main {
-	color: #000000;
+	color: Black;
+}
+
+#mobile-button{
+    color: Black;	
 }
 
 #collapsable-nav{
 	padding :0px;
+
 }
 
 #nav-list {
@@ -11,6 +20,7 @@
 	margin-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
+
 }	
 
 #nav-list li{
@@ -19,13 +29,32 @@
 	border-collapse: collapse;
 	width: 100%;
 	text-align: center;	
-	margin-top: -1px;    
+	margin-top: -1px;
+	color: Black;    
 }
 
-.navbar{
-	
+#nav-list li a{
+	color: Black;    
 }
+
+.row{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+@media (max-width: 767px) {
+	.row{
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+}
+
+
+
+
 
 .menu-section {
-    background: #A8E6CE;  
+    background: #A8E6CE;
+    word-wrap: break-word;  
 }
